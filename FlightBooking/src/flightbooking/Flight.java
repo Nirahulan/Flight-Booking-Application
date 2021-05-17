@@ -125,13 +125,7 @@ public class Flight {
          @Override
          public String toString()
          {
-             //     System.out.print(flightNumber );
-             //     System.out.print(origin  );
-                //  System.out.print(destination  );
-                  //System.out.print(departureTime  );
-                 // System.out.println(originalPrice  );
-           //
-             return flightNumber  + origin  +  destination + departureTime + originalPrice;           
+            return flightNumber  + origin  +  destination + departureTime + originalPrice;           
          }
 }      
 

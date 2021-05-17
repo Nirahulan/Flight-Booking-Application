@@ -37,7 +37,7 @@ public abstract class Passenger {
             return age;
         }
    
-    //SHOULD THIS BE VOID???
+
     public  abstract  double applyDiscount(double p);
                 
 }

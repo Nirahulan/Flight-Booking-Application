@@ -18,11 +18,7 @@ public class Manager {
   Flight [] flights = new Flight[3];
   Ticket [] tickets = new Ticket[5];
    
-  //ArrayList<Flight> airlines = new ArrayList<Flight>();
-  //Flight air_canada = new Flight(101,"Toronto","London","Today",1000,0,0);
- // Flight american_airlines = new Flight(101,"Toronto","Cleveland","Today",2000,0,0);
-   
-   //Flight aircanada = new Flight (101,"Toronto","London","Today",1000,0,0);
+
    public void createFlights()
    {
  
@@ -40,9 +36,6 @@ public class Manager {
    public void displayAvailableFlights(String origin, String destination)
    {
    System.out.println(flights[0].toString());
-   //System.out.println(flights[1].toString());
-   //System.out.println("American Airlines" + american_airlines.flightNumber+american_airlines.origin+"to" +american_airlines.destination);
-   
    
    }
     
@@ -62,13 +55,10 @@ public class Manager {
    
   public void bookSeat(int flightNumber, Passenger p)
   {
-     // System.out.println("Booking seat for Air Cananada");
-     //System.out.println("Passenger is Member");
-     //System.out.println("Flight is available");
+
       Flight flight = getFlight(flightNumber);
       
-      
-      if (flight!=null)
+   if (flight!=null)
     {
        if(flight.bookASeat())
        {
